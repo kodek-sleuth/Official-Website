@@ -1,0 +1,152 @@
+body
+{
+    width: 1200px;
+    height: 650px;
+}
+
+.homepage_image
+{
+    height: 650px;
+    width: 1200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.nav-list2 .nav-list-item2
+{
+    display: inline;
+}
+
+.nav-list-item2
+{
+    margin-left: 42px;
+}
+.nav-list2
+{
+    margin-left: 300px;
+}
+
+.navbar2
+{
+    margin-bottom: 520px;
+    border-bottom: 0.5px solid rgb(107, 106, 106);
+}
+.name
+{
+    position: absolute;
+    top:5%;
+    left: 1%;
+    transform: translateY(-20%);
+    font-size: 20px;
+}
+
+.text
+{
+    position: absolute;
+    top:22%;
+    left: 0%;
+    transform: translateY(-10%);
+    transform: translateX(-10%);
+}
+
+.tags
+{
+    margin-top: 10px;
+}
+
+
+.flag_icon
+{
+    height: 20px;
+    width: 30px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.quText
+{
+    color: #fd7e14;
+}
+
+.quText:hover
+{
+    text-decoration: none;
+    color: #fd7e14;
+}
+.loText
+{
+    color: #e83e8c;
+}
+
+.loText:hover
+{
+    text-decoration: none;
+    color: #e83e8c;
+}
+
+.InText
+{
+    color: #20c997;
+}
+
+.InText:hover
+{
+    text-decoration: none;
+    color: #20c997;
+}
+
+.fuText
+{
+    color: #17a2b8;
+}
+
+.fuText:hover
+{
+    text-decoration: none;
+    color: #17a2b8;
+}
+
+.efText
+{
+    color: #6610f2;
+}
+
+.efText:hover
+{
+    text-decoration: none;
+    color: #6610f2;
+}
+
+.para
+{
+    color: #fff;
+}
+
+.ninthwrapper
+{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-auto-rows: 240px;
+    background: #484e53;
+}
+
+.btn-x
+{
+    width: 150px;
+}
+
+.aboutme
+{
+    padding-bottom: 90px;
+}
+
+.image
+{
+    height: 210px;
+    width: 220px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 460px;
+}
