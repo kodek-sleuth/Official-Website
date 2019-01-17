@@ -1,0 +1,144 @@
+@media(min-width: 1025px)
+{
+    body
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .navigation
+    {
+        display: grid;
+        grid-template-columns: 15% 25% 40% 20%;
+        padding: 5px 0;
+        background: #dd5e89;
+        background: -webkit-linear-gradient(to right, #dd5e89, #f7bb97);
+        background: linear-gradient(to right, #dd5e89, #f7bb97);
+    }
+
+    .iconMenu
+    {
+        margin-top: 10px;
+        width: 100px;
+        height: 50px;
+    }
+
+    .stories
+    {
+        margin-top: 20px;
+        background: -webkit-linear-gradient(#3A6073, #16222A);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .pdct
+    {
+        margin-top: 20px;
+        background: -webkit-linear-gradient(#3A6073, #16222A);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    }
+
+    .callMe
+    {
+        margin-top: 20px;
+        background: -webkit-linear-gradient(#3A6073, #16222A);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
+    }
+
+    .navItemsforNavigation
+    {
+        display: grid;
+        grid-template-columns: 70% 10%;
+        grid-column-gap: 200px;
+        padding: 5px 0;
+        background: #12c2e9;
+        background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+        background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+        background-size: cover;
+    
+    }
+    
+    .menuView
+    {
+        padding: 100px 0; 
+        margin-left: 450px;
+    }
+
+    .closeIcon
+    {
+        margin-left: 20%;
+        margin-top: 10%;
+    }
+
+    #iconClose
+    {
+        height: 50px;
+        width: 100px;
+    }
+
+   .blog:hover
+    {
+        text-decoration: none;
+        background: -webkit-linear-gradient(#FFA17F, #0b8793);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
+    }
+
+    .contact:hover
+    {
+        text-decoration: none;
+        background: -webkit-linear-gradient(#fe8c00, #f83600);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
+    }
+
+    .github:hover
+    {
+        text-decoration: none;
+        background: -webkit-linear-gradient(#00d2ff, #3a7bd5);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
+        
+    }
+
+    .blog
+    {
+        background: -webkit-linear-gradient(#3A6073, #16222A);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
+        
+    }
+
+    .contact
+    {
+        background: -webkit-linear-gradient(#3A6073, #16222A);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
+    
+    }
+
+    .github
+    {
+        background: -webkit-linear-gradient(#3A6073, #16222A);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
+
+    }
+
+    #kodek
+    {
+        color: #007bff;
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
+        font-weight: 300;
+    }
+
+}
