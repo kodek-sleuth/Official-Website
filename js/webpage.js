@@ -7,8 +7,10 @@ window.onload = function()
         $("#information").hide()
         $("#iconLeft").hide();
         $("#iconLeft2").hide();
-    }
-);
+    });
+
+    var itemsNav = document.getElementById("navItemsforNavigation");
+    itemsNav.style.display="none";
 
 }
 
@@ -113,4 +115,6 @@ function runEventSix()
         }
     );
 }
+
+
 
