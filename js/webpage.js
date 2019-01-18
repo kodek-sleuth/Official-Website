@@ -1,3 +1,17 @@
+window.onload = function()
+{
+    $(function()
+    {
+        $("#navItemsforNavigation").hide();
+        $("#blogStories").hide();
+        $("#information").hide()
+        $("#iconLeft").hide();
+        $("#iconLeft2").hide();
+    }
+);
+
+}
+
 $(function()
     {
         $("#navItemsforNavigation").hide();
