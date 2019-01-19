@@ -21,6 +21,10 @@ $(function()
         $("#information").hide()
         $("#iconLeft").hide();
         $("#iconLeft2").hide();
+        $(".imageTwo").hide()
+        $(".imageThree").hide()
+        $(".imageFour").hide()
+
     }
 );
 
@@ -116,5 +120,76 @@ function runEventSix()
     );
 }
 
+var imgIconRightClick = document.getElementById("imgOneRight");
+imgIconRightClick.addEventListener('click', runEventSeven);
+
+function runEventSeven()
+{
+    $('.imageOne').hide(500);
+    $('.imageTwo').show(500);
+}
+
+var imgIconRightClick2 = document.getElementById("imgTwoRight");
+imgIconRightClick2.addEventListener('click', runEventEight);
+
+function runEventEight()
+{
+    $('.imageTwo').hide(500);
+    $('.imageThree').show(500);
+}
+
+var imgIconRightClick3 = document.getElementById("imgThreeRight");
+imgIconRightClick3.addEventListener('click', runEventNine);
+
+function runEventNine()
+{
+    $('.imageThree').hide(500);
+    $('.imageFour').show(500);
+}
+
+var imgIconRightClickLast = document.getElementById("imgFourRight");
+imgIconRightClickLast.addEventListener('click', runEventLast);
+
+function runEventLast()
+{
+    $('.imageFour').hide(500);
+    $('.imageOne').show(500);
+}
+
+var imgIconRightClick4 = document.getElementById("imgOneLeft");
+imgIconRightClick4.addEventListener('click', runEventTen);
+
+function runEventTen()
+{
+    $('.imageOne').hide(500);
+    $('.imageFour').show(500);
+}
+
+var imgIconRightClick5 = document.getElementById("imgTwoLeft");
+imgIconRightClick5.addEventListener('click', runEventEleven);
+
+function runEventEleven()
+{
+    $('.imageTwo').hide(500);
+    $('.imageOne').show(500);
+}
+
+var imgIconRightClick6 = document.getElementById("imgThreeLeft");
+imgIconRightClick6.addEventListener('click', runEventTwelve);
+
+function runEventTwelve()
+{
+    $('.imageThree').hide(500);
+    $('.imageTwo').show(500);
+}
+
+var imgIconRightClickLastLeft = document.getElementById("imgFourLeft");
+imgIconRightClickLastLeft.addEventListener('click', runEventLastLeft);
+
+function runEventLastLeft()
+{
+    $('.imageFour').hide(500);
+    $('.imageThree').show(500);
+}
 
 
