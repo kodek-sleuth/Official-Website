@@ -4,6 +4,7 @@
     {
         width: 100%;
         height: 100%;
+        background: rgb(255, 255, 255);
     }
     .navigation
     {
@@ -189,4 +190,260 @@
         font-size: 40px;
         font-weight: 200
     }
+
+    .quote
+    {
+        background: #40E0D0;
+        background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
+        background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); 
+        padding: 50px 0; 
+        text-align: center;
+        margin-top: 30px;
+        width: 880px;
+        margin-left: 200px;
+
+        -moz-box-shadow: -4px -8px 31px -5px #FF0080, 10px 5px 31px 3px #40E0D0;
+	    -webkit-box-shadow: -4px -8px 31px -5px #FF0080, 10px 5px 31px 3px #40E0D0;
+	    box-shadow: -4px -8px 31px -5px #FF0080, 10px 5px 31px 2px #40E0D0;
+    }
+
+    .quoteText
+    {
+        background: -webkit-linear-gradient(rgb(25, 43, 53), rgb(12, 19, 24));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
+    }
+
+    .jsIcon
+    {
+        height: 50px;
+        width: 50px;
+    }
+
+    .htmlIcon
+    {
+        height: 50px;
+        width: 50px;
+    }
+
+    .cssIcon
+    {
+        height: 50px;
+        width: 50px;
+    }
+
+    .iconGit
+    {
+        height: 100px;
+        width: 100px;
+    }
+
+    .poweredBy
+    {
+        margin-top: 50px;
+    }
+
+    .powerIcons
+    {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+
+    h6
+    {
+        margin-top: 10px;
+    }
+
+
+    .myWork
+    {
+        margin-top: 50px;
+        margin-left: 200px;
+    }
+
+    .smallIntro
+    {
+    
+        display: grid;
+        grid-template-columns: 2fr 4fr; 
+        background: #70e1f5;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+    .aboutMeSmall
+    {
+        margin-top: 80px;
+        margin-left:100px;
+    }
+
+    .motto
+    {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sampleGallery
+    {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 40% 50%;
+        grid-column-gap: 50px;
+        margin-bottom: 100px;
+
+    }
+
+    #image1
+    {
+        height: 270px;
+        width: 270px;
+    }
+
+    #image2
+    {
+        height: 270px;
+        width: 270px;
+    }
+
+    #image3
+    {
+        height: 270px;
+        width: 270px;
+    }
+
+    #image4
+    {
+        height: 270px;
+        width: 270px;
+    }
+
+    #image5
+    {
+        height: 270px;
+        width: 270px;
+    }
+
+    .picDescription
+    {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .imgIcons
+    {
+        width: 50px;
+        height: 50px;
+        fill: #e7f5f8;
+    }
+
+    .imageOne
+    {
+
+        padding: 50px 0;
+        margin-left: 100px;
+        padding-left: 10px;
+        width: 500px;
+        background: #70e1f5;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        -moz-box-shadow: -4px -8px 31px -5px #ffd194, 10px 5px 31px 3px #70e1f5;
+	    -webkit-box-shadow: -4px -8px 31px -5px #ffd194, 10px 5px 31px 3px #70e1f5;
+	    box-shadow: -4px -8px 31px -5px #ffd194, 10px 5px 31px 2px #70e1f5;
+    }
+
+    #image1
+    {
+        margin-left: 50px;
+    }
+
+    #imgOneRight
+    {
+        margin-left: 50px;
+    }
+
+   
+    .imageTwo
+    {
+
+        padding: 50px 0;
+        margin-left: 100px;
+        padding-left: 10px;
+        width: 500px;
+        background: #E6DADA;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        -moz-box-shadow: -4px -8px 31px -5px #274046, 10px 5px 31px 3px #E6DADA;
+	    -webkit-box-shadow: -4px -8px 31px -5px #274046, 10px 5px 31px 3px #E6DADA;
+	    box-shadow: -4px -8px 31px -5px #274046, 10px 5px 31px 2px #E6DADA;
+    }
+
+    #image2
+    {
+        margin-left: 50px;
+    }
+
+    #imgTwoRight
+    {
+        margin-left: 50px;
+    }
+
+    .imageThree
+    {
+
+        padding: 50px 0;
+        margin-left: 100px;
+        padding-left: 10px;
+        width: 500px;
+        background: #16A085;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #F4D03F, #16A085);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #F4D03F, #16A085); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        -moz-box-shadow: -4px -8px 31px -5px #F4D03F, 10px 5px 31px 3px #16A085;
+	    -webkit-box-shadow: -4px -8px 31px -5px #F4D03F, 10px 5px 31px 3px #16A085;
+	    box-shadow: -4px -8px 31px -5px #F4D03F, 10px 5px 31px 2px #16A085;
+    }
+
+    #image3
+    {
+        margin-left: 50px;
+    }
+
+    #imgThreeRight
+    {
+        margin-left: 50px;
+    }
+
+    .imageFour
+    {
+
+        padding: 50px 0;
+        margin-left: 100px;
+        padding-left: 10px;
+        width: 500px;
+        background: #659999;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #659999, #f4791f);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #659999, #f4791f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+        -moz-box-shadow: -4px -8px 31px -5px #659999, 10px 5px 31px 3px #f4791f;
+	    -webkit-box-shadow: -4px -8px 31px -5px #659999, 10px 5px 31px 3px #f4791f;
+	    box-shadow: -4px -8px 31px -5px #659999, 10px 5px 31px 2px #f4791f;
+    }
+
+    #image4
+    {
+        margin-left: 50px;
+    }
+
+    #imgFourRight
+    {
+        margin-left: 50px;
+    }
+
+
+
 }
