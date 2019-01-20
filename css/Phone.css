@@ -1,0 +1,266 @@
+@media(max-width: 1024px)
+{
+    body
+    {
+        width: 100%;
+        height: 100%;
+        background: rgb(255, 255, 255);
+    }
+
+    .navigation
+    {
+        display: none;
+    }
+
+    .quote
+    {
+        display: none;
+    }
+
+    .poweredBy
+    {
+        display: none;
+    }
+
+    .smallIntro
+    {
+        display: none;
+    }
+
+    .sampleGallery
+    {
+        display: none;
+    }
+
+    .BusinessSide
+    {
+        display: none;
+    }
+
+    .helpBusiness
+    {
+        display: none;
+    }
+
+    .helpEducation
+    {
+        display: none;
+    }
+
+    .Reach
+    {
+        display: none;
+    }
+
+    .footer
+    {
+        display: none;
+    }
+
+    #navigation2
+    {
+        display: block;
+    }
+
+    #navigation2
+    {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        background: #dd5e89;
+        background: -webkit-linear-gradient(to right, #dd5e89, #f7bb97);
+        background: linear-gradient(to right, #dd5e89, #f7bb97);
+    }
+
+    .iconMenu2
+    {
+        width: 50px;
+        height: 50px;
+        margin-top: 10px
+    }
+
+    .title1
+    {
+        margin-top: 10px;
+        margin-left: 70px;
+        font-weight: 300;
+        font-size: 38px;
+    }
+
+    .navItemsforNavigation2
+    {
+        display: block;
+    }
+
+    .navItemsforNavigation2
+    {
+        display: grid;
+        grid-template-columns: 80% 20%;
+        padding: 5px 0;
+        background: #12c2e9;
+        background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+        background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+        background-size: cover;
+    
+    }
+    
+    .menuView2
+    {
+
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .closeIcon2
+    {
+       margin-left: 2px;
+       margin-top: 10px;
+    }
+
+    #iconClose2
+    {
+        height: 50px;
+        width: 50px;
+        fill:#007bff;
+    }
+
+    .blog2
+    {
+        background: -webkit-linear-gradient(#3A6073, #16222A);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
+    }
+
+    .github2
+    {
+        background: -webkit-linear-gradient(#3A6073, #16222A);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
+    }
+
+    .contact2
+    {
+        background: -webkit-linear-gradient(#3A6073, #16222A);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
+    }
+
+    .gallery2
+    {
+        background: -webkit-linear-gradient(#3A6073, #16222A);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
+    }
+
+    .quote2
+    {
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+
+    .quoteText2
+    {
+        background: -webkit-linear-gradient(rgb(25, 43, 53), rgb(12, 19, 24));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
+        text-align: center;
+    }
+
+    .buttonToEdit2
+    {
+        margin: auto;
+        -moz-border-radius:28px;
+        -webkit-border-radius:28px;
+        border-radius:28px;
+        border: 1px solid #eea849;
+        display:inline-block;
+        cursor: pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size: 25px;
+        padding: 16px 60px;
+        text-decoration: none;
+        background: #f46b45;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+    #iconRightPhone
+    {
+        width: 25px;
+        height: 25px;
+        fill: #ffffff;
+    }
+
+    .myWork2
+    {
+        margin-top: 5px;
+
+    }
+
+    .smallIntro2
+    {
+    
+        margin-top: 40px;
+        display: grid;
+        grid-template-rows: 2fr 4fr; 
+        background: #70e1f5;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+    .aboutMeSmall2
+    {
+        
+        margin-left: 20px;
+        margin-top: 60px;
+    }
+
+    .motto2
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 10px;
+        font-size: 30px;
+    }
+
+    #meetingArrow10
+    {
+        width: 20px;
+        height: 20px;
+        fill: #fff;
+    }
+
+    #btnFreeCourse2
+    {
+        border: 2px solid #17a2b8;
+        display: inline-block;
+        cursor: pointer;
+        color: #fff;
+        font-family: Arial;
+        font-size: 25px;
+        padding: 15px 0;
+        text-decoration:none;
+        background: #17a2b8;
+        width: 300px;
+        margin-left: 15px;
+    }
+
+    #myWork2Header
+    {
+        font-size: 30px;
+        font: bold;
+    }
+
+    #aboutMeText2
+    {
+        font-size: 25px;
+    }
+
+
+
+}
