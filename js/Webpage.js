@@ -1,5 +1,8 @@
+
+
 window.onload = function()
 {
+
     $(function()
     {
         $("#navItemsforNavigation").hide();
@@ -180,8 +183,13 @@ imgIconRightClick.addEventListener('click', runEventSeven);
 
 function runEventSeven()
 {
-    $('.imageOne').hide(500);
-    $('.imageTwo').show(500);
+    $(function()
+        {
+            $('.imageOne').hide(500);
+            $('.imageTwo').show(500);
+        }
+    );
+  
 }
 
 var imgIconRightClick2 = document.getElementById("imgTwoRight");
@@ -189,8 +197,13 @@ imgIconRightClick2.addEventListener('click', runEventEight);
 
 function runEventEight()
 {
-    $('.imageTwo').hide(500);
-    $('.imageThree').show(500);
+    $(function()
+        {
+            $('.imageTwo').hide(500);
+            $('.imageThree').show(500);
+        }
+    );
+   
 }
 
 var imgIconRightClick3 = document.getElementById("imgThreeRight");
@@ -198,8 +211,13 @@ imgIconRightClick3.addEventListener('click', runEventNine);
 
 function runEventNine()
 {
-    $('.imageThree').hide(500);
-    $('.imageFour').show(500);
+    $(function()
+       {
+        $('.imageThree').hide(500);
+        $('.imageFour').show(500); 
+       }
+    );
+   
 }
 
 var imgIconRightClickLast = document.getElementById("imgFourRight");
@@ -207,8 +225,13 @@ imgIconRightClickLast.addEventListener('click', runEventLast);
 
 function runEventLast()
 {
-    $('.imageFour').hide(500);
-    $('.imageOne').show(500);
+    $(function()
+        {
+            $('.imageFour').hide(500);
+            $('.imageOne').show(500);
+        }
+    );
+   
 }
 
 var imgIconRightClick4 = document.getElementById("imgOneLeft");
@@ -216,8 +239,13 @@ imgIconRightClick4.addEventListener('click', runEventTen);
 
 function runEventTen()
 {
-    $('.imageOne').hide(500);
-    $('.imageFour').show(500);
+    $(function()
+        {
+            $('.imageOne').hide(500);
+            $('.imageFour').show(500);
+        }
+    );
+   
 }
 
 var imgIconRightClick5 = document.getElementById("imgTwoLeft");
@@ -225,8 +253,13 @@ imgIconRightClick5.addEventListener('click', runEventEleven);
 
 function runEventEleven()
 {
-    $('.imageTwo').hide(500);
-    $('.imageOne').show(500);
+    $(function()
+        {
+            $('.imageTwo').hide(500);
+            $('.imageOne').show(500);
+        }
+    );
+   
 }
 
 var imgIconRightClick6 = document.getElementById("imgThreeLeft");
@@ -234,8 +267,13 @@ imgIconRightClick6.addEventListener('click', runEventTwelve);
 
 function runEventTwelve()
 {
-    $('.imageThree').hide(500);
-    $('.imageTwo').show(500);
+    $(function()
+        {
+            $('.imageThree').hide(500);
+            $('.imageTwo').show(500);
+        }
+    );
+  
 }
 
 var imgIconRightClickLastLeft = document.getElementById("imgFourLeft");
@@ -243,8 +281,13 @@ imgIconRightClickLastLeft.addEventListener('click', runEventLastLeft);
 
 function runEventLastLeft()
 {
-    $('.imageFour').hide(500);
-    $('.imageThree').show(500);
+    $(function()
+        {
+            $('.imageFour').hide(500);
+            $('.imageThree').show(500);
+        }
+    );
+   
 }
 
 var onMouse1 = document.getElementById("btnFreeCourse");
@@ -253,15 +296,25 @@ onMouse1.addEventListener('mouseleave', runEvent14);
 
 function runEvent13()
 {
-    $('#meetingArrow').fadeOut();
-    $('#meetingArrow2').fadeIn();
-    $('#meetingArrow2').css({fill: '#fff'});
+    $(function()
+        {
+            $('#meetingArrow').fadeOut();
+            $('#meetingArrow2').fadeIn();
+            $('#meetingArrow2').css({fill: '#fff'})
+        }
+        );
+   
 }
 
 function runEvent14()
 {
-    $('#meetingArrow2').fadeOut();
-    $('#meetingArrow').fadeIn();
+    $(function()
+        {
+            $('#meetingArrow2').fadeOut();
+            $('#meetingArrow').fadeIn();
+        }
+    );
+    
 }
 
 var onMouse2 = document.getElementById("viewGalleryBtn");
@@ -270,16 +323,50 @@ onMouse2.addEventListener('mouseleave', runEvent16);
 
 function runEvent15()
 {
-    $('#meetingArrow3').fadeOut();
-    $('#meetingArrow4').fadeIn();
-    $('#meetingArrow4').css({fill: '#fff'});
+    $(function()
+        {
+            $('#meetingArrow3').fadeOut();
+            $('#meetingArrow4').fadeIn();
+            $('#meetingArrow4').css({fill: '#fff'});
+        }
+    );
+   
 }
 
 function runEvent16()
 {
-    $('#meetingArrow4').fadeOut();
-    $('#meetingArrow3').fadeIn();
+    $(function () 
+    {  
+        $('#meetingArrow4').fadeOut();
+        $('#meetingArrow3').fadeIn();
+    });
+   
 }
 
+var BookChange = document.getElementById('bookBtn');
+BookChange.addEventListener('mouseover', runEvent1000);
+BookChange.addEventListener('mouseout', runEvent2000)
+
+function runEvent1000()
+{
+    $(function()
+        {
+            $('#book').hide(300);
+            $('#bookOpen').show(300);
+        }
+    );
+   
+}
+
+function runEvent2000()
+{
+    $(function()
+        {
+            $('#bookOpen').hide(300);
+            $('#book').show(300);
+        }
+    );
+   
+}
 
 
