@@ -1,0 +1,403 @@
+@media(min-width: 990px)
+{
+    body
+    {
+        height: 100%;
+        width: 100%;
+        background:  rgb(255, 255, 255);
+        font-family: 'Hind', sans-serif;
+    }
+
+    #GalleryNavBar
+    {
+        display: grid;
+        grid-template-columns: 20% 40% 40%;
+        background: #4DA0B0;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #D39D38, #4DA0B0);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #D39D38, #4DA0B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+    #galleryMenuIcon
+    {
+        width: 50px;
+        height: 50px;
+        fill: rgb(45, 68, 83);
+    }
+
+    #Menu
+    {
+        margin-top: 10px;
+    }
+
+    #nameHeader
+    {
+        display: grid;
+        margin-top: 15px;
+        justify-items: center;
+        background: -webkit-linear-gradient(rgb(43, 78, 95), rgb(18, 31, 39));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Mukta', sans-serif;
+    }
+
+    #companyName
+    {
+        display: grid;
+        margin-top: 15px;
+        justify-items: center;  
+        background: -webkit-linear-gradient(rgb(43, 78, 95), rgb(7, 13, 17));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Mukta', sans-serif;
+       
+    }
+
+    #itemsToSee
+    {
+
+        margin-left: 50%;
+        margin-top: 25px;
+        padding: 50px 0;
+    }
+
+    a:hover
+    {
+        text-decoration: line-through;
+        color: #FF0080; 
+    }
+
+    .navText
+    {
+        font-family: 'Slabo 27px', serif;
+        color: rgb(26, 36, 43);
+    }
+
+
+    #navItemsCollection
+    {
+        display: grid;
+        grid-template-columns: 80% 20%;
+        background: #40E0D0; 
+        background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); 
+        background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
+    }
+
+    #galleryCloseIcon
+    {
+        margin-top: 20px;
+        width: 50px;
+        height: 50px;
+        fill: rgb(45, 68, 83);
+    }
+
+    .imgSize
+    {
+        width: 170px;
+        height: 170px;
+    }
+
+    #galleryShow
+    {
+        margin-top: 150px;
+        display: grid;
+        grid-template-columns: 10% 12% 10% 12% 10% 12% 10% 12%;
+        margin-left: 15px;
+
+    }
+
+    #One
+    {
+        border: 5px solid #70e1f5;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    #Two
+    {
+        border: 5px solid #274046;
+        margin-top: 45px;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    #Three
+    {
+        border: 5px solid #F4D03F;
+        margin-top: 20px;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    #Four
+    {
+        border: 5px solid #f4791f;
+        margin-top: 45px;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    #Five
+    {
+        border: 5px solid rgb(230, 62, 62);
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    #Six
+    {
+        border: 5px solid #40E0D0;
+        margin-top: 20px;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    #Seven
+    {
+        border: 5px solid #FF8C00;
+        margin-top: 5px;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    #Eight
+    {
+        border: 5px solid rgb(182, 137, 39);
+        margin-top: 35px;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .sliderSize
+    {
+        width: 270px;
+        height: 270px;
+    }
+
+    .iconSlider
+    {
+        width: 70px;
+        height: 70px;
+        fill: #e7f5f8;
+    }
+
+    .iconSlider:hover
+    {
+        fill: #17a2b8;
+    }
+
+    #realSlideShow
+    {
+        width: 100%;
+        height: 690px;
+        background: #232424;
+    }
+
+    #slide1
+    {
+        width: 470px;
+        height: 470px;
+        margin-left: 250px;
+    }
+
+    #slideOne
+    {
+        padding: 50px 0;
+    }
+
+    #OneRight
+    {
+        margin-left: 250px;
+    }
+
+    #OneLeft
+    {
+        margin-left: 50px;
+    }
+    #slide2
+    {
+        width: 470px;
+        height: 470px;
+        margin-left: 250px;
+    }
+
+    #slideTwo
+    {
+        padding: 50px 0;
+    }
+
+    #TwoRight
+    {
+        margin-left: 250px;
+    }
+
+    #TwoLeft
+    {
+        margin-left: 50px;
+    }
+
+    #slide3
+    {
+        width: 470px;
+        height: 470px;
+        margin-left: 250px;
+    }
+
+    #slideThree
+    {
+        padding: 50px 0;
+    }
+
+    #ThreeRight
+    {
+        margin-left: 250px;
+    }
+
+    #ThreeLeft
+    {
+        margin-left: 50px;
+    }
+
+    #slide4
+    {
+        width: 470px;
+        height: 470px;
+        margin-left: 250px;
+    }
+
+    #slideFour
+    {
+        padding: 50px 0;
+    }
+
+    #FourRight
+    {
+        margin-left: 250px;
+    }
+
+    #FourLeft
+    {
+        margin-left: 50px;
+    }
+
+    #slide5
+    {
+        width: 470px;
+        height: 470px;
+        margin-left: 250px;
+    }
+
+    #slideFive
+    {
+        padding: 50px 0;
+    }
+
+    #FiveRight
+    {
+        margin-left: 250px;
+    }
+
+    #FiveLeft
+    {
+        margin-left: 50px;
+    }
+
+    #slide6
+    {
+        width: 470px;
+        height: 470px;
+        margin-left: 250px;
+    }
+
+    #slideSix
+    {
+        padding: 50px 0;
+    }
+
+    #SixRight
+    {
+        margin-left: 250px;
+    }
+
+    #SixLeft
+    {
+        margin-left: 50px;
+    }
+
+    #slide7
+    {
+        width: 470px;
+        height: 470px;
+        margin-left: 250px;
+    }
+
+    #slideSeven
+    {
+        padding: 50px 0;
+    }
+
+    #SevenRight
+    {
+        margin-left: 250px;
+    }
+
+    #SevenLeft
+    {
+        margin-left: 50px;
+    }
+
+    #slide8
+    {
+        width: 470px;
+        height: 470px;
+        margin-left: 250px;
+    }
+
+    #slideEight
+    {
+        padding: 50px 0;
+    }
+
+    #EightRight
+    {
+        margin-left: 250px;
+    }
+
+    #EightLeft
+    {
+        margin-left: 50px;
+    }
+
+    .closeText
+    {
+        text-align: center;
+        font-family: 'Coiny', cursive;
+        color: #dc3545;
+        cursor: pointer;
+    }
+
+    .openingText
+    {
+        text-align: center;
+        font-family: 'Coiny', cursive;
+    }
+
+
+
+}
