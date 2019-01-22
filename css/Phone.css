@@ -66,9 +66,9 @@
     {
         display: grid;
         grid-template-columns: 40% 60%;
-        background: #dd5e89;
-        background: -webkit-linear-gradient(to right, #dd5e89, #f7bb97);
-        background: linear-gradient(to right, #dd5e89, #f7bb97);
+        background: #f31b63;
+        background: -webkit-linear-gradient(to right, #f71c65, #e68041);
+        background: linear-gradient(to right, #f71c65, #e68041);
     }
 
     .iconMenu2
@@ -84,6 +84,10 @@
         margin-left: 70px;
         font-weight: 300;
         font-size: 38px;
+        background: -webkit-linear-gradient(rgb(52, 99, 122), rgb(16, 26, 32));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
     }
 
     .navItemsforNavigation2
@@ -108,12 +112,14 @@
 
         margin-left: 50px;
         margin-top: 50px;
+        padding: 100px 0;
+        font-size: 30px;
     }
 
     .closeIcon2
     {
        margin-left: 2px;
-       margin-top: 10px;
+       margin-top: 50px;
     }
 
     #iconClose2
@@ -366,22 +372,7 @@
     {
         margin-left: 115px;
     }
-
-    #imgTwo2
-    {
-        display: none;
-    }
-
-    #imgThree2
-    {
-        display: none;
-    }
-
-    #imgFour2
-    {
-        display: none;
-    }
-
+    
     .BusinessSide2
     {
         display: grid;
@@ -639,3 +630,4 @@
 
     }
 }
+
