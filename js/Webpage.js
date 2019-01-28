@@ -41,7 +41,7 @@ function runEventOne()
             $("#navItemsforNavigation").slideDown(1000);
             $("#iconClose").fadeIn(400);
             $("#navItemsforNavigation").animate({
-                height: '630px'
+                height: '700px'
             })
             $(".quote").hide(500);
             $(".poweredBy").hide(500);

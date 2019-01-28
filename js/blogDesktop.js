@@ -1,38 +1,10 @@
 $(function()
     {
-        $("#navText").hide();
         $("#image2").hide();
     }
 );
 
-var btn = document.getElementById("menuIcon");
-btn.addEventListener('click', runEventOne);
 
-function runEventOne()
-{
-    $(function()
-        {
-            $("#menuIcon").hide(300);
-            $("#closeIcon").show(400);
-            $("#navText").show(500);
-           
-        }
-    );
-}
-
-var btn2 = document.getElementById("iconClose");
-btn2.addEventListener('click', runEventTwo);
-
-function runEventTwo()
-{
-    $(function()
-        {
-            $("#closeIcon").hide(500);
-            $("#navText").hide(600);
-            $("#menuIcon").show(700);
-        }
-    );
-}
 
 var btn3 = document.getElementById("Down");
 btn3.addEventListener('click', runEventThree);
