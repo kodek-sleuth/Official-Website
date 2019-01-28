@@ -1,0 +1,170 @@
+@media(min-width: 900px)
+{
+    body
+    {
+        width: 100%;
+        height: 100%;
+        font-family: 'Slabo 27px', serif;
+    }
+
+    #issue
+    {
+        display: grid;
+        grid-template-columns: 6% 94%;
+
+    }
+
+    #sideBar
+    {
+        background: #FBD786;
+    }
+
+    #image1
+    {
+        height: 600px;
+        width: 100%;
+    }
+
+    #image2
+    {
+        width: 384px;
+        height: 240px;
+    }
+
+    #snippetIssue
+    {
+        background: rgb(235, 226, 226);
+        width: 384px;
+        height: 200px;
+    }
+
+    #nextIssue
+    {
+        margin-left: 35%;
+    }
+
+    #navText
+    {
+        margin-top: 250px;
+        position: fixed;
+    }
+
+    #menuIcon
+    {
+        margin-top: 250px;
+        fill: rgb(48, 46, 46);
+        width: 50px;
+        height: 50px;
+        position: fixed;
+    }
+
+    #closeIcon
+    {
+    
+        fill: rgb(48, 46, 46);
+        width: 50px;
+        height: 50px;
+    }
+
+    a
+    {
+        font-family: 'Ubuntu', sans-serif;
+        color: rgb(61, 59, 59);
+    }
+
+    a:hover
+    {
+        color: rgb(6, 48, 48);
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .headerText
+    {
+        font-family: 'Bitter', serif;
+        font-size: 55px;
+    }
+
+    .subHeaderText
+    {
+        font-family: 'Bree Serif', serif;
+    }
+
+    #firstParagraph
+    {
+        font-size: 30px;
+    }
+
+    #secondParagraph
+    {
+        font-size: 30px;
+    }
+
+    #thirdParagraph
+    {
+        font-size: 30px;
+    }
+
+    #fourthParagraph
+    {
+        font-size: 30px;
+    }
+
+    #fifthParagraph
+    {
+        font-size: 30px;
+    }
+
+    #sixthParagraph
+    {
+        font-size: 30px;
+    }
+
+    #footer
+    {
+        margin-top: 20px;
+        background: #343a40;
+        text-align: center;
+        height: 40px;
+        padding: 5px 0;
+        color: rgb(238, 238, 238);
+    }
+
+    #date
+    {
+        text-align: end;
+    }
+
+    #miniHeader
+    {
+        border-bottom: 1px solid #20c997;
+        margin-right: 170px;
+    }
+
+    #appleText
+    {
+        font-size: 20px;
+    }
+
+    #viewBtn
+    {
+        border: 2px solid #17a2b8;
+        display: inline-block;
+        cursor: pointer;
+        color: #fff;
+        font-family: 'Bree Serif', serif;
+        font-size: 25px;
+        padding: 2px 0;
+        text-decoration:none;
+        background: #17a2b8;
+        width: 300px;
+    }
+
+    #viewBtn:hover
+    {
+        background: #FBD786;
+        border: 2px solid #FBD786;
+    }
+
+
+
+}

@@ -5,6 +5,7 @@
         width: 100%;
         height: 100%;
         background: rgb(255, 255, 255);
+        font-family: 'Slabo 27px', serif;
     }
 
     .navigation
@@ -186,7 +187,7 @@
         display:inline-block;
         cursor: pointer;
         color:#ffffff;
-        font-family:Arial;
+        font-family: 'Varela Round', sans-serif;
         font-size: 25px;
         padding: 16px 60px;
         text-decoration: none;
@@ -229,7 +230,7 @@
 
     .motto2
     {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Bree Serif', serif;
         margin-left: 10px;
         font-size: 30px;
     }
@@ -303,6 +304,7 @@
         font-weight: 300;
         font-size: 30px;    
         border-bottom: 1px solid #28a745;  
+        font-family: 'Bree Serif', serif;
 
     }
 
@@ -454,7 +456,7 @@
         border-radius: 28px;
         border: 1px solid #0F2027;
         cursor: pointer;
-        font-family: Tahoma, Verdana, Segoe, sans-serif;
+        font-family: 'Varela Round', sans-serif;
         font-size: 25px;
         padding: 16px 60px;
         text-decoration: none;
@@ -473,7 +475,7 @@
         border-radius:28px;
         border: 1px solid #0F2027;
         cursor:pointer;
-        font-family: Tahoma, Verdana, Segoe, sans-serif;
+        font-family: 'Varela Round', sans-serif;
         font-size: 30px;
         padding:16px 60px;
         text-decoration:none;
@@ -504,6 +506,7 @@
     {
         font-size: 30px;
         border-bottom: 1px solid #0F2027;
+        font-family: 'Bree Serif', serif;
     }
 
     #helpbusinessTextPara2
@@ -551,6 +554,7 @@
         font-size: 30px;
         border-bottom: 1px solid #0F2027;
         margin-top: 45px;
+        font-family: 'Bree Serif', serif;
     }
 
     #helpEducationTextPara2
@@ -629,5 +633,14 @@
         background: #0F2027;
 
     }
-}
 
+
+
+
+
+
+
+
+   
+
+}

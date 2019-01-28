@@ -1,0 +1,259 @@
+@media(min-width: 900px)
+{
+    body
+    {
+        height: 100%;
+        width: 100%;
+        background:  rgb(255, 255, 255);
+        font-family: 'Slabo 27px', serif;
+    }
+
+    #sideBarText
+    {
+        font-family: 'Merriweather', serif;
+        word-wrap: break-word;
+        width: 0.8em;
+        padding-top: 10px;
+        box-sizing: border-box;
+        text-transform: uppercase;
+    }
+
+    #navigation
+    {
+        display: grid;
+        grid-template-columns: 6% 94%;
+    }
+
+    #sideBar
+    {
+        width: 75px;
+        padding: 10px 0;
+        background: #FBD786;
+    }
+
+    #sideBar:hover
+    {
+        background: #FBD786;
+    }
+
+    #sideBarIcon
+    {
+       margin-top: 250px;
+       display: grid;
+       justify-items: center;
+    }
+
+    #menuIcon
+    {
+        width: 50px;
+        height: 50px;
+        fill: rgb(73, 77, 77);
+    }
+
+    #image1
+    {
+        background-image: url('../images/ubuntuLinux.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 625px;
+    }
+
+    #image2
+    {
+        background-image: url('../images/appleMacWide.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 625px;
+    }
+
+
+    
+   #navText
+   {
+       font-family: 'Ubuntu', sans-serif;
+   }
+
+   a
+   {
+       color: rgb(27, 25, 25);
+       font-family: 'Ubuntu', sans-serif;
+   }
+
+   a:hover
+   {
+       color: rgb(6, 48, 48);
+       font-family: 'Ubuntu', sans-serif;
+   }
+
+   #ubuntuTextCenter
+   {
+
+       margin-left: 480px;
+       margin-right: 300px;
+       margin-top: 25px;
+       border-bottom: 1px solid rgb(180, 184, 184);
+   }
+
+   #ubuntuFirstText
+   {
+
+       padding: 20px 0;
+       padding-left: 20px;
+       font-family: 'Bitter', serif;
+
+   }
+
+   #pythonFirstText
+   {
+
+       padding: 20px 0;
+       padding-left: 20px;
+       font-family: 'Bitter', serif;
+
+   }
+
+
+   #textCenter
+   {
+        font-size: 35px;
+   }
+
+   #ubuntuTextSnippet
+   {
+
+       margin-top: 140px;
+       margin-left: 50px;
+      
+   }
+
+   #pythonTextSnippet
+   {
+
+       margin-top: 140px;
+       margin-left: 50px;
+       color: #fff;
+      
+   }
+
+   #snippetText
+   {
+        font-size: 37px;
+   }
+
+   #ubuntuButton
+   {
+        border: 2px solid #17a2b8;
+        display: inline-block;
+        cursor: pointer;
+        color: #fff;
+        font-family: 'Bree Serif', serif;
+        font-size: 25px;
+        padding: 10px 0;
+        text-decoration:none;
+        background: #17a2b8;
+        width: 30%;
+    
+    }
+
+    #ubuntuButton:hover
+    {
+        background: #FBD786;
+        border: 2px solid #FBD786;
+    }
+
+    #iconButton
+    {
+        height: 25px;
+        width: 25px;
+        fill: #fff;
+    }
+
+    #pyButton
+    {
+        border: 2px solid #f7797d;
+        display: inline-block;
+        cursor: pointer;
+        color: #fff;
+        font-family: 'Bree Serif', serif;
+        font-size: 25px;
+        padding: 10px 0;
+        text-decoration:none;
+        background: #f7797d;
+        width: 30%;
+     
+     }
+ 
+     #pyButton:hover
+     {
+        background: #FBD786;
+        border: 2px solid #FBD786;
+     }
+ 
+     #pyIconButton
+     {
+         height: 25px;
+         width: 25px;
+         fill: #fff;
+     }
+
+    #Up
+    {
+        height: 50px;
+        width: 50px;
+        fill: #fff;
+    }
+
+    #Down
+    {
+        height: 50px;
+        width: 50px;
+        fill: #fff;
+    }
+
+    #navKeys
+    {
+        margin-top: 100px;
+        margin-left: 1000px;
+    }
+
+    #pyUp
+    {
+        height: 50px;
+        width: 50px;
+        fill: #fff;
+    }
+
+    #pyDown
+    {
+        height: 50px;
+        width: 50px;
+        fill: #fff;
+    }
+
+    #pyNavKeys
+    {
+        margin-top: 150px;
+        margin-left: 1000px;
+    }
+
+    #pythonSnippetText
+    {
+        font-size: 40px;
+        font-family: 'Bitter', serif;
+
+    }
+
+    #pythonFirstText
+    {
+        color: rgb(204, 198, 198);
+    }
+
+    #closeIcon
+    {
+        width: 50px;
+        height: 50px;
+        fill: rgb(73, 77, 77);
+    }
+}
