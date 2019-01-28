@@ -7,6 +7,15 @@
         font-family: 'Slabo 27px', serif;
     }
 
+    .navIcons
+    {
+        width: 45px;
+        height: 45px;
+        fill: #434343;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
     #issue
     {
         display: grid;
@@ -45,25 +54,10 @@
 
     #navText
     {
-        margin-top: 250px;
+        margin-top: 100px;
+        display: grid;
+        justify-items: center;
         position: fixed;
-    }
-
-    #menuIcon
-    {
-        margin-top: 250px;
-        fill: rgb(48, 46, 46);
-        width: 50px;
-        height: 50px;
-        position: fixed;
-    }
-
-    #closeIcon
-    {
-    
-        fill: rgb(48, 46, 46);
-        width: 50px;
-        height: 50px;
     }
 
     a
@@ -74,8 +68,7 @@
 
     a:hover
     {
-        color: rgb(6, 48, 48);
-        font-family: 'Ubuntu', sans-serif;
+        text-decoration: none
     }
 
     .headerText
