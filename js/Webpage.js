@@ -1,5 +1,3 @@
-
-
 window.onload = function()
 {
 
@@ -327,7 +325,7 @@ function runEvent15()
         {
             $('#meetingArrow3').fadeOut();
             $('#meetingArrow4').fadeIn();
-            $('#meetingArrow4').css({fill: '#fff'});
+            $('#meetingArrow4').css({'fill': '#fff'});
         }
     );
    
@@ -368,5 +366,3 @@ function runEvent2000()
     );
    
 }
-
-
