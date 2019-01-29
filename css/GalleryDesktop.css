@@ -206,7 +206,7 @@
     {
         width: 100%;
         height: 690px;
-        background: #232424;
+        background: #272727;
     }
 
     #slide1
@@ -223,18 +223,18 @@
 
     #OneRight
     {
-        margin-left: 250px;
+        margin-left: 150px;
     }
 
     #OneLeft
     {
-        margin-left: 50px;
+        margin-left: 100px;
     }
     #slide2
     {
         width: 470px;
         height: 470px;
-        margin-left: 250px;
+        margin-left: 150px;
     }
 
     #slideTwo
@@ -244,19 +244,19 @@
 
     #TwoRight
     {
-        margin-left: 250px;
+        margin-left: 150px;
     }
 
     #TwoLeft
     {
-        margin-left: 50px;
+        margin-left: 100px;
     }
 
     #slide3
     {
         width: 470px;
         height: 470px;
-        margin-left: 250px;
+        margin-left: 150px;
     }
 
     #slideThree
@@ -266,19 +266,19 @@
 
     #ThreeRight
     {
-        margin-left: 250px;
+        margin-left: 150px;
     }
 
     #ThreeLeft
     {
-        margin-left: 50px;
+        margin-left: 100px;
     }
 
     #slide4
     {
         width: 470px;
         height: 470px;
-        margin-left: 250px;
+        margin-left: 150px;
     }
 
     #slideFour
@@ -288,19 +288,19 @@
 
     #FourRight
     {
-        margin-left: 250px;
+        margin-left: 150px;
     }
 
     #FourLeft
     {
-        margin-left: 50px;
+        margin-left: 100px;
     }
 
     #slide5
     {
         width: 470px;
         height: 470px;
-        margin-left: 250px;
+        margin-left: 150px;
     }
 
     #slideFive
@@ -310,19 +310,19 @@
 
     #FiveRight
     {
-        margin-left: 250px;
+        margin-left: 150px;
     }
 
     #FiveLeft
     {
-        margin-left: 50px;
+        margin-left: 100px;
     }
 
     #slide6
     {
         width: 470px;
         height: 470px;
-        margin-left: 250px;
+        margin-left: 150px;
     }
 
     #slideSix
@@ -332,19 +332,19 @@
 
     #SixRight
     {
-        margin-left: 250px;
+        margin-left: 150px;
     }
 
     #SixLeft
     {
-        margin-left: 50px;
+        margin-left: 100px;
     }
 
     #slide7
     {
         width: 470px;
         height: 470px;
-        margin-left: 250px;
+        margin-left: 150px;
     }
 
     #slideSeven
@@ -354,19 +354,19 @@
 
     #SevenRight
     {
-        margin-left: 250px;
+        margin-left: 150px;
     }
 
     #SevenLeft
     {
-        margin-left: 50px;
+        margin-left: 100px;
     }
 
     #slide8
     {
         width: 470px;
         height: 470px;
-        margin-left: 250px;
+        margin-left: 150px;
     }
 
     #slideEight
@@ -376,17 +376,17 @@
 
     #EightRight
     {
-        margin-left: 250px;
+        margin-left: 150px;
     }
 
     #EightLeft
     {
-        margin-left: 50px;
+        margin-left: 100px;
     }
 
     .closeText
     {
-        text-align: center;
+        margin-left: 350px;
         font-family: 'Coiny', cursive;
         color: #dc3545;
         cursor: pointer;
@@ -398,6 +398,17 @@
         font-family: 'Coiny', cursive;
     }
 
+    #footer
+    {
+        margin-top: 100px;
+        background: #8a8b8b;
+        height: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
 
-
+    #phoneHtml
+    {
+        display: none;
+    }
 }

@@ -1,0 +1,112 @@
+@media(max-width: 900px)
+{
+    body
+    {
+        height: 100%;
+        width: 100%;
+        background: rgb(255, 255, 255);
+    }
+
+    #desktopVersion
+    {
+        display: none;
+    }
+
+    .navIcons
+    {
+        width: 50px;
+        height: 50px;
+        fill: #e6e3e3;
+        margin-left: 15px;
+    }
+
+    #navText
+    {
+        width: 100%;
+        background: #283E51;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        padding: 10px 0;
+    }
+
+    .image
+    {
+        height: 250px;
+        width: 100%;
+    }
+
+    #image
+    {
+        height: 250px;
+        width: 100%;
+    }
+
+    .headerText
+    {
+        font-size: 55px;
+        margin-top: 70px;
+        font-family: 'Bitter', serif;
+        margin-left: 20px;
+        text-decoration: underline;
+    }
+
+    #buttonCall
+    {
+        margin-top: 25px;
+        padding: 10px 0;
+        width: 300px;
+        border: 2px solid #F15F79;
+        background: #F15F79;
+        font-family: 'Bitter', serif;
+        font-size: 30px;
+        color: #fff;
+    }
+
+    #sales
+    {
+        margin-top: 50px;
+    }
+
+    .miniHeader
+    {
+        font-family: 'Bree Serif', serif;
+        margin-left: 10px;
+        text-decoration: underline;
+        font-size: 45px;
+    }
+
+    .salesText
+    {
+        font-size: 25px;
+        font-family: 'Ubuntu', sans-serif;
+        margin-left: 10px;
+    }
+
+    .viewBtn
+    {
+        -moz-border-radius:28px;
+        -webkit-border-radius:28px;
+        border-radius:28px;
+        border: 2px solid #0F2027;
+        cursor:pointer;
+        color:#fff;
+        font-family: 'Bitter', serif;
+        font-size: 30px;
+        padding:16px 60px;
+        text-decoration:none;
+        background: #0F2027;
+        margin-left: 25px;
+        margin-bottom: 50px;
+    }
+
+    #footer1
+    {
+        height: 100%;
+        text-align: center;
+        background: rgb(32, 32, 32);
+        padding: 20px 0;
+        color: #fff;
+        font-size: 30px;
+    }
+    
+}

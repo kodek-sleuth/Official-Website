@@ -1,0 +1,149 @@
+@media(max-width: 900px)
+{
+    body
+    {
+        height: 100%;
+        width: 100%;
+        background: rgb(255, 255, 255)
+    }
+
+    #desktopVersion
+    {
+        display: none;
+    }
+
+    .navIcons
+    {
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+        fill: #272727;
+    }
+
+    #navText
+    {
+        background: #FBD786;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        padding: 10px 0;
+        position: fixed;
+    }
+
+    #image12
+    {
+        height: 300px;
+        width: 100%;
+    }
+
+    #image22
+    {
+        height: 300px;
+        width: 100%;
+    }
+
+    .headerText
+    {
+        font-family: 'Bitter', serif;
+        font-size: 45px;
+        text-decoration: underline;
+    }
+
+    
+    .subHeaderText
+    {
+        font-family: 'Bree Serif', serif;
+    }
+
+    #firstParagraph
+    {
+        font-size: 35px;
+        font-family: 'Slabo 27px', serif;
+    }
+
+    #secondParagraph
+    {
+        font-size: 35px;
+        font-family: 'Slabo 27px', serif;
+    }
+
+    #thirdParagraph
+    {
+        font-size: 35px;
+        font-family: 'Slabo 27px', serif;
+    }
+
+    #fourthParagraph
+    {
+        font-size: 35px;
+        font-family: 'Slabo 27px', serif;
+    }
+
+    #fifthParagraph
+    {
+        font-size: 35px;
+        font-family: 'Slabo 27px', serif;
+    }
+
+    #sixthParagraph
+    {
+        font-size: 35px;
+        font-family: 'Slabo 27px', serif;
+    }
+
+    .subHeaderText
+    {
+        font-family: 'Bree Serif', serif;
+        font-size: 40px;
+    }
+
+    #date
+    {
+        text-align: end;
+        font-size: 25px;
+        margin-top: 5px;
+        text-decoration: underline;
+    }
+
+    #miniHeader
+    {
+       font-family: 'Bree Serif', serif;
+       font-size: 45px;
+       text-decoration: underline;
+    }
+
+    #appleText
+    {
+        font-family: 'Slabo 27px', serif;
+        font-size: 35px;
+    }
+
+    #viewBtn
+    {
+        border: 2px solid #17a2b8;
+        display: inline-block;
+        cursor: pointer;
+        color: #fff;
+        font-family: 'Bree Serif', serif;
+        font-size: 25px;
+        padding: 2px 0;
+        text-decoration:none;
+        background: #17a2b8;
+        width: 300px;
+    }
+
+    #snippetIssue
+    {
+        background: #fff;
+    }
+
+    #footer
+    {
+        font-family: 'Slabo 27px', serif;
+        font-size: 25px;
+        background: #272727;
+        height: 100%;
+        color: #fff;
+        margin-top: 10px;
+    }
+}

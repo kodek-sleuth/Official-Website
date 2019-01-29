@@ -158,6 +158,10 @@
         border: 2px solid #FBD786;
     }
 
+    #phoneVersion
+    {
+        display: none;
+    }
 
 
 }

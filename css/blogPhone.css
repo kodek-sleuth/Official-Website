@@ -1,0 +1,148 @@
+@media(max-width: 900px)
+{
+    body
+    {
+        height: 100%;
+        width: 100%;
+        background: rgb(255, 255, 255);
+    }
+
+    #desktopVersion
+    {
+        display: none;
+    }
+
+    .navIcons
+    {
+        width: 50px;
+        height: 50px;
+        margin-left: 35px;
+        fill: rgb(14, 12, 12);
+    }
+
+    #navText
+    {
+        width: 100%;
+        padding-left: 20px;
+        background: #4CA1AF;
+        padding: 10px 0;
+        position: fixed;
+    }
+
+    #image12
+    {
+        background-image: url('../images/ubuntuLinux.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 1000px;
+    }
+
+    #image22
+    {
+        background-image: url('../images/appleMacWide.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 1000px;
+    }
+
+    .FirstText
+    {
+        margin-left: 50px;
+        padding-top: 120px; 
+        font-family: 'Bitter', serif;
+        text-decoration: underline;
+    }
+
+    .TextSnippet
+    {
+        margin-left: 25px; 
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .snippetText
+    {
+        font-size: 50px; 
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    button
+    {
+        border: 2px solid #17a2b8;
+        display: inline-block;
+        cursor: pointer;
+        color: #fff;
+        font-family: 'Bree Serif', serif;
+        font-size: 25px;
+        padding: 10px 0;
+        text-decoration:none;
+        background: #17a2b8;
+        width: 200px;
+        margin-top: 350px;
+    }
+
+    #Left
+    {
+        height: 50px;
+        width: 50px;
+        margin-left: 70%;
+        fill: #fff;
+    }
+
+    #Right
+    {
+        height: 50px;
+        width: 50px;
+        margin-left: 70%;
+        fill: #fff;
+    }
+
+    .TextCenter
+    {
+        margin-top: 170px;
+    }
+
+    .textCenter
+    {
+        font-family: 'Bitter', serif;
+        font-size: 35px;
+        margin-left: 10px;
+    }
+
+    #pythonFirstText2
+    {
+        color: #fff;
+        padding-top: 120px;
+        margin-left: 20px;
+        font-family: 'Bree Serif', serif;
+        font-size: 45px;
+        text-decoration: underline;
+    }
+
+    #pythonSnippetText2
+    {
+        margin-left: 20px;
+        font-family: 'Bitter', serif;
+        color: rgb(243, 239, 239);
+        font-size: 40px;
+        margin-top: 30px;
+    }
+
+    #pyButton2
+    {
+        border: 2px solid #17a2b8;
+        display: inline-block;
+        cursor: pointer;
+        color: #fff;
+        font-family: 'Bree Serif', serif;
+        font-size: 25px;
+        padding: 10px 0;
+        text-decoration:none;
+        background: #17a2b8;
+        width: 200px;
+        margin-top: 50px;
+    }
+
+
+}
