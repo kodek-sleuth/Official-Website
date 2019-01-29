@@ -29,6 +29,7 @@ function runEventOne()
             $('#galleryShow').hide(600);
             $('#GalleryNavBar').hide(700);
             $('.openingText').hide(700);
+            $('#footer').hide(700)
             $('#navItemsCollection').animate({
                 height: '680px'
             });
@@ -49,6 +50,7 @@ function runEventTwo()
             $('#galleryShow').show(2000);
             $('#GalleryNavBar').show(1500);
             $('.openingText').show(2000);
+            $('#footer').show(2500);
             $('#navItemsCollection').hide(700);
         }
     );
